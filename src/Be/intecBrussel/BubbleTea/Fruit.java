@@ -1,6 +1,6 @@
 package Be.intecBrussel.BubbleTea;
 
-public class Fruit extends BubbleTeaIngredients {
+public abstract class Fruit extends BubbleTeaIngredients implements Boilable{
     public Fruit() {
     }
 

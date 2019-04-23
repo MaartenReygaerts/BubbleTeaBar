@@ -32,6 +32,10 @@ public class Register {
         tickets.add(ticket);
         profit += ticket.getPrice();
     }
+    public void acceptTicket(Ticket ticketln){
+        this.tickets.add(ticketln);
+        this.profit += ticketln.getPrice();
+    }
 
 
 

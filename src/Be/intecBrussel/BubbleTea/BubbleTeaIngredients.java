@@ -1,6 +1,6 @@
 package Be.intecBrussel.BubbleTea;
 
-public class BubbleTeaIngredients {
+public abstract class BubbleTeaIngredients {
     private double price;
 
     public BubbleTeaIngredients() {
