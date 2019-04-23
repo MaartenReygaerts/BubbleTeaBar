@@ -1,4 +1,4 @@
-package Be.intecBrussel.BubbleTea;
+package Be.intecBrussel.Bar;
 
 public class Ticket {
     private int ticketNr;
@@ -13,7 +13,7 @@ public class Ticket {
         this.price = price;
         this.ticketNr = count++;
     }
-
+        //getters en setters
     public int getTicketNr() {
         return ticketNr;
     }
@@ -33,8 +33,8 @@ public class Ticket {
     @Override
     public String toString() {
         return "Ticket{" +
-                "ticketNr = " + ticketNr +
-                ", price = " + price +
-                '}' + "\n";
+                "ticketNr=" + ticketNr +
+                ", price=" + price +
+                '}';
     }
 }

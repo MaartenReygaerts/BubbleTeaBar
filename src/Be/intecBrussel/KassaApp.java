@@ -1,8 +1,5 @@
 package Be.intecBrussel;
 
-import Be.intecBrussel.BubbleTea.Orange;
-import Be.intecBrussel.BubbleTea.Ticket;
-
 public class KassaApp {
     public static void main(String[] args) {
 

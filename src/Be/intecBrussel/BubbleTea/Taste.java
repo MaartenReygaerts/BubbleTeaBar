@@ -1,20 +1,19 @@
 package Be.intecBrussel.BubbleTea;
 
 public enum Taste {
-    SOUR_APPLE("Sour apple"),
-    SWEET_APPLE("Sweet apple"),
+    SOURAPPLE("Sour Apple"),
+    SWEETAPPLE("Sweet Apple"),
     LIME("Lime"),
     STRAWBERRY("Strawberry"),
-    REDBERRY("Redberry"),
     BLUEBERRY("Blueberry");
 
-    private String taste;
+    private String name;
 
-    Taste(String taste) {
-        this.taste = taste;
+    Taste(String name) {
+        this.name = name;
     }
 
-    public String getTaste() {
-        return taste;
+    public String getName() {
+        return name;
     }
 }

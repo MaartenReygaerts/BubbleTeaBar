@@ -1,7 +1,6 @@
 package Be.intecBrussel.BubbleTea;
 
-public class Cream extends BubbleTeaIngredient{
-private double price = 1.00;
+public class Cream extends BubbleTeaIngredients {
     public Cream() {
     }
 
